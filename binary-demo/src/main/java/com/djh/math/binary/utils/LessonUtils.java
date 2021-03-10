@@ -35,4 +35,26 @@ public class LessonUtils {
         // 默认转换成十进制
         return Integer.parseInt(bigInteger.toString());
     }
+
+    /**
+     * 位运算左移
+     *
+     * @param num 等待左移的十进制数
+     * @param m   向左移动的位数
+     * @return int
+     */
+    public static int leftShift (int num, int m) {
+        return num << m;
+    }
+
+    /**
+     * 位运算右移
+     *
+     * @param num 等待右移的十进制数
+     * @param m   向右移动的位数
+     * @return int
+     */
+    public static int rightShift (int num, int m) {
+        return num >>> m;
+    }
 }
