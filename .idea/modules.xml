@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/binary-demo/binary-demo.iml" filepath="$PROJECT_DIR$/binary-demo/binary-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/remainder-demo/remainder-demo.iml" filepath="$PROJECT_DIR$/remainder-demo/remainder-demo.iml" />
     </modules>
   </component>
 </project>

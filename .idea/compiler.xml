@@ -7,10 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="binary-demo" />
+        <module name="remainder-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="binary-demo" target="1.8" />
+      <module name="remainder-demo" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="binary-demo" options="-parameters" />
+      <module name="remainder-demo" options="-parameters" />
+    </option>
   </component>
 </project>

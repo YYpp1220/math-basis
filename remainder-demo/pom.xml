@@ -11,7 +11,7 @@
 		<version>2.1.6.RELEASE</version>
 	</parent>
 	<groupId>com.djh.math-basis</groupId>
-	<artifactId>binary-demo</artifactId>
+	<artifactId>remainder-demo</artifactId>
 	<version>1.0-SNAPSHOT</version>
 
 	<!-- 配置全局的属性 -->
@@ -45,7 +45,7 @@
             <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
- 
+
 	<build>
         <plugins>
             <!-- 配置SpringBoot的maven插件 -->
